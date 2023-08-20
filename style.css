@@ -1,0 +1,23 @@
+.heading {
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px grey;
+}
+.note {
+    font-size: 15px;
+    color: black;
+}
+body {
+    background-image: url("SpeakerBg.PNG");
+    background-size: cover;
+}
+.div_song_name {
+    float: center;
+}
+canvas {
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: black;
+    box-shadow: 5px 5px 5px cyan;
+}
