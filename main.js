@@ -41,18 +41,18 @@ function draw () {
     if (scoreLeftWrist > 0.2) {    
         circle(leftWristX, leftWristY, 20);
         peter_pan.stop();
-        if (song1Status == "false") {
+        if (song1Status == false) {
             harry_potter.play();
-            document.getElementById("div_song_name").innerHTML = "Song Name - Harry Potter (Modified Version)";
+            document.getElementById("song").innerHTML = "Song Name - Harry Potter (Modified Version)";
         }
     }
     song2Status = peter_pan.isPlaying();
     if (scoreRightWrist > 0.2) {    
         circle(rightWristX, rightWristY, 20);
         harry_potter.stop();
-        if (song2Status == "false") {
+        if (song2Status == false) {
             peter_pan.play();
-            document.getElementById("div_song_name").innerHTML = "Song Name - Peter Pan";
+            document.getElementById("song").innerHTML = "Song Name - Peter Pan";
         }
     }
 }
